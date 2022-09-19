@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+.list {
+    width: 20%;
+    height: 100vh;
+    background-color: #A8878F;
+}
+
+.footer {
+    margin-top: 215%;
+    display: flex;
+    justify-content: center;
+}
+
+.nova-pagina {
+    width: 75%;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #202D48;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #F2F0EC;
+    transition: all .1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nova-pagina:hover{
+    cursor: pointer;
+    background-color: #4f6083;
+}
