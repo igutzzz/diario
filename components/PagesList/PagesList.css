@@ -1,20 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 1rem;
+}
 
 .list {
     width: 20%;
     height: 100vh;
     background-color: #A8878F;
+    position: relative;
+}
+
+.page-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.page {
+    padding: 1rem;
+    width: 100%;
+}
+
+.active {
+    background-color: red;
+}
+
+.page:hover {
+    background-color: #d1cdc778;
+    transition: all .15s ease-in-out;
+    cursor: pointer;
+}
+
+#page_title {
+    font-size: 1.4rem;
+    font-weight: 800;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#delete {
+    color: rgb(135, 29, 29);
+}
+
+#delete:hover {
+    cursor: pointer;
+    color: rgb(212, 112, 112);
+    transition: all .1s ease-in-out;
+}
+
+#page_body {
+    font-size: .9rem;
+}
+
+#page_modificado {
+    font-size: .8rem;
 }
 
 .footer {
-    margin-top: 215%;
+    position: absolute;
+    bottom: 10px;
+    width: 23rem;
     display: flex;
     justify-content: center;
 }
 
 .nova-pagina {
-    width: 75%;
+    width: 35vh;
     padding: 1rem 2rem;
     border-radius: 20px;
     border: none;

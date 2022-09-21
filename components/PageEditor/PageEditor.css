@@ -3,11 +3,28 @@ h1, h2 {
     text-decoration-style: dotted;
 }
 
+h1:focus, h2:focus {
+    outline: none;
+}
+
 .page-editor {
     color: #202D48;
     background-color: #F2F0EC;
     width: 80%;
     padding: 5rem 10rem;
+}
+
+.page-titulo {
+    border: none;
+    background-color: #F2F0EC;
+    font-size: 2rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    color: #202D48;
+}
+
+.page-titulo:focus {
+    outline: none;
 }
 
 textarea {
